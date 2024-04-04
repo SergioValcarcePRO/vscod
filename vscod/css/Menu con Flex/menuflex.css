@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding:0; 
+    
+
+}
+h1{
+    font: 3em Georgia;
+    text-align: center;
+    color: bisque;
+    background-color: rgb(172, 15, 172);
+    text-shadow: 10px 10px 20px #dddddd;
+}
+.menu{
+    list-style-type:none ; /* Quita os puntos da lista */
+    display: flex; /* O contenedor pasa a ter propiedade flex. Todos os seus elementos fillos osn felx( non os netos) */
+    justify-content: space-around; /* */
+    align-content: center;/*Non faria falta, non ten moita altura*/
+    margin:20px;
+    padding:20px ;
+    /* overflow: hidden; O contido recortase e non se mostran barras de desprazamento. */
+    background-color: #d6afdc;
+
+}
+
+nav{
+    position:sticky; /* para que se quede pegado*/
+    top:0;
+   
+
+ }
+ nav ul{
+    list-style-type: none;
+    background-color:rgb(223, 223, 75);
+    overflow: hidden;
+    margin: 20px;
+    padding: 20px;
+ }
+
+
+ nav ul li{
+    float: left; 
+    margin: 0 2em;
+ }
+nav ul li a{
+    color:white;
+    text-decoration: none;
+
+}
+nav ul li a:hover{
+    text-shadow: 5px 5px 10px blue;
+    color:antiquewhite;
+    transition: .5s;
+}
+

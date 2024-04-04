@@ -1,0 +1,103 @@
+*{    /* este e un reset basico*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    width: 70%;  /* para que ocupe o 70% de ancho de viewport*/
+    border: 3px dotted rgb(238, 153, 8);
+    border-radius: 10px; /* para que o borde este redondeado*/
+    background-color: moccasin;
+    position: center;
+    margin: 10vw;
+    min-height: 1000vh;  /* para saber si funciona correctamente o sticky do nav*/
+
+}
+nav.menu{
+    position:sticky; /* para que o menu se quede pegado arriba*/
+    top: 0;
+    background-color: maroon;
+    color:moccasin; 
+}
+nav a{
+margin-left:1.5em ;
+margin-right: 1.5em;
+text-decoration: none;
+color:white;
+text-align:left;
+float: left;
+font-weight: bold; /*para poñer en negriña*/ 
+font-size: 2em;
+}
+ nav ul{
+    list-style-type: none;
+    overflow: hidden;
+    margin: 20px;
+    padding: 20px;
+ }
+ nav ul li{
+    float: left; 
+    margin: 2em;
+ }
+nav ul li a{
+    color:white;
+    text-decoration: none;
+
+}
+nav ul li a:hover{
+    color:black;
+    transition: .7s;
+}
+header{
+    background-color: maroon;
+    color:coral;
+    width: 80%;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 85px;
+    padding: 10px;
+    position: center;
+}
+header h1{
+    font-size: 5em;
+    text-shadow: 1px 2px black;
+    
+}
+header h2{
+    font-size: 3em;
+}
+div.Artigos{
+    border: 3px solid black;
+width: 80%;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+display: flex;
+margin: auto;
+padding: 15px;
+text-align:center;
+display: flex;
+
+}
+div.a1{
+    width: 25%;
+    font-size: 1em;  
+    text-align: justify;
+    padding: 30px;
+    
+}
+div.a2{
+   
+    font-size: 1em;
+    text-align: justify;
+    width: 25%;
+    padding: 30px;
+    
+}
+div.a3{
+    font-size: 1em;
+    padding: 30px;
+    width: 25%;
+    text-align: justify;
+    
+}

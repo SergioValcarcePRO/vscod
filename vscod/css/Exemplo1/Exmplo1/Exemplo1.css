@@ -1,0 +1,22 @@
+/*
+ Exemplo_1252_clases.css
+*/
+body {
+  font-family: sans-serif;
+}
+.azul {
+  color: blue;
+}
+div.azul {
+  font-family: serif;
+}
+
+
+#segunda{
+    color: red;
+}
+
+#probandohover{
+    color: black;
+
+}

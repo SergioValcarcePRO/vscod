@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Tarefa 5</title>
+  </head>
+  <body>
+    <h1>Fomulario de datos de alta dun usuario</h1>
+    <form id="registroForm" action="procesar_registro.php" method="post">
+      <fieldset>
+        <legend>Datos persoais</legend>
+        <label for="nombre">Nome:</label>
+        <input type="text" id="nombre" name="nombre" required />
+        <br /><br />
+        <label for="apellidos">Apelidos:</label>
+        <input
+          type="text"
+          id="apellidos"
+          name="apellidos"
+          size="50"
+          required
+        />
+        <p>
+          <label for="foto"> Suba unha foto recente do/a usuario/a</label>
+          <input type="file" name="foto" id="foto" />
+        </p>
+        <p>
+          <label>¿É a priemira vez que se da de alta como usuario/a? :</label>
+          <input
+            type="radio"
+            name="¿E a primeira vez que se da de alta como ususario/a?"
+            value="Si"
+            checked="checked"
+            id="Si"
+          />
+          <label for="Si"> Si</label>
+          <input
+            type="radio"
+            name="¿E a primerira vez que se da de alta como usuario/a?"
+            value="Non"
+          />
+          <label for="No"> Non</label>
+        </p>
+        <p>
+          <label>Provincia galega onde está censado/a:</label
+          >
+          <select
+            id="Provincia galega onde esta censado"
+            name="Provincia galega onde esta censado"
+          >
+            <option value="" selected="selected">- selecciona -</option>
+            <option value="Lugo">Lugo</option>
+            <option value="A_Coruna">A Coruña</option>
+            <option value="Pontevedra">Pontevedra</option>
+            <option value="Ourense">Ourense</option>
+            <option value="Non_Galega">Non Galega</option>
+          </select>
+        </p>
+        <p>
+          <label>Redes sociais que emprega habitualmente:</label>
+          <input
+            name="Facebook"
+            type="checkbox"
+            value="Facebook"
+            id="Facebook"
+          />
+          <label for="Facebook">Facebook</label>
+          <input name="Twitter" type="checkbox" value="Twitter" id="Twitter" />
+          <label for="Twitter"> Twitter</label>
+          <input
+            name="Pinterest"
+            type="checkbox"
+            value="Pinterest"
+            id="Pinterest"
+          />
+          <label for="Pinterest">Pinterest</label>
+          <input
+            name="Instagram"
+            type="checkbox"
+            value="Instagram"
+            id="Instagram"
+          />
+          <label for="Instagram">Instagram</label>
+          <input name="Outras" type="checkbox" value="Outras" id="Outras" />
+          <label for="Outras">Outras</label>
+        </p>
+        <p>
+          <label for="Observacions">Observacións:</label><br />
+          <textarea
+            id="Observacions"
+            name="Observacions"
+            cols="50"
+            rows="5"
+            maxlength="250"
+          ></textarea>
+        </p>
+      </fieldset>
+      <fieldset>
+        <legend>Datos acceso</legend>
+        <p>
+          <label for="Nome">Nome de usuario/a:</label>
+          <input
+            type="text"
+            id="Nome"
+            name="Nome"
+            required
+            size="10"
+            maxlength="10"
+          />
+        </p>
+        <p>
+          <label for="contrasinal">Contrasinal</label>
+          <input
+            type="password"
+            name="contrasinal"
+            value=""
+            id="contrasinal"
+            size="10"
+            maxlength="10"
+          />
+        </p>
+        <p>
+          <label for="Repite contrasinal">Repite contrasinal</label>
+          <input
+            type="password"
+            name="Repite contrasinal"
+            value=""
+            id="contrasinal"
+            size="10"
+            maxlength="10"
+          />
+        </p>
+        <p>
+          <input
+            type="reset"
+            name="Borrar datos do formulario"
+            value="Borrar datos do formulario"
+          />
+          <input type="submit" name="Crear conta" value="Crear conta" />
+        </p>
+      </fieldset>
+    </form>
+  </body>
+</html>

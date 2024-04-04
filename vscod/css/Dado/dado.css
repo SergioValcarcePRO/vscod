@@ -1,0 +1,50 @@
+
+
+.caixa {
+  position: relative;
+  top:15em; /*poñer em, en porcentaxe non porque e moi pequeno*/
+  left: 25em;
+  background-color: gainsboro;
+
+  width: 30vw;
+  height: 30vw;
+  border: .5rem solid black;
+}
+.circulo{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  margin: .5em;
+  border: 3px solid black;
+  border-radius: 50% ;
+  background-color: black;
+ 
+}
+.circulo1 {
+  top:0px;
+  right: 0px;
+}
+.circulo2 {
+  top:0px;
+  right: 0px;
+ 
+}
+.circulo3 {
+  top:0px;
+  right: 0px;
+  
+}
+.circulo4 {
+ bottom:0px;
+ right: 0px;
+  
+ 
+}
+.circulo5 {
+  /* top: 175px;*/
+  /* left: 175px;*/
+
+  top: calc(50% - 30.5px);
+  left:calc(50% - 30.5px)
+  
+}

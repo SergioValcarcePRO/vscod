@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ciclo_LMSX código="MP0373" corpo="PES">
+    <nome>Linguxa de Marcas e Sistemas de Xestión de Información</nome>
+
+    <num_horas>133h</num_horas>
+
+    <contenidos>
+        <bloque orden="A">
+           <titulo>HTML e CSS</titulo>
+        </bloque>
+        <bloque orden="B">
+           <titulo>XML</titulo>
+        </bloque>
+        <bloque orden="C">
+            <titulo>Sistemas Xestores da Información</titulo>
+        </bloque>
+    </contenidos>
+
+</ciclo_LMSX>

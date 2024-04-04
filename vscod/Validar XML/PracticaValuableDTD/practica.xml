@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE torneo SYSTEM "practica.dtd">
+
+<torneo edicion="1998" anteriorGanador="j01">
+
+    <participantes>
+        <participante idP="j01" pareja="j02">
+            <nombre>Manuel Pe rez</nombre>
+            <edad>23</edad>
+            <pais> Espan a</pais>
+            <cabezaDeSerie />
+        </participante>
+
+        <participante idP="j02" pareja="j01">
+            <nombre>Manuel Go mez</nombre>
+            <edad>25</edad>
+            <pais>Espan a</pais>
+        </participante>
+
+        <participante idP="j03" pareja="j04">
+            <nombre>Ana Puertas</nombre>
+            <edad>22</edad>
+            <pais> E5span a</pais>
+            <cabezaDeSerie />
+        </participante>
+
+        <participante idP="j04" pareja="j03">
+            <nombre>Paco Fraile</nombre>
+            <edad>45</edad>
+            <pais>Espan a</pais>
+        </participante>
+    </participantes>
+</torneo>

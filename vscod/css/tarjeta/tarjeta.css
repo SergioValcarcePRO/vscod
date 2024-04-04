@@ -1,0 +1,36 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+div.contenido {
+  border: 1px solid gray;
+  margin: 0 auto;
+  width: 230px;
+  box-shadow: 10px 10px 20px black -10px -10px 20px black;
+  position: relative;
+  top: 30vh;
+  display: flex;
+}
+.titulo {
+  background: gray;
+  font-size: 1.5em;
+  color: white;
+  padding: 4px;
+  text-align: center;
+}
+.body {
+  font-style: italic;
+  padding: 8px;
+  text-align: justify;
+}
+.foot {
+  background: lightgray;
+  color: black;
+  text-align: center;
+  padding: 8px;
+}

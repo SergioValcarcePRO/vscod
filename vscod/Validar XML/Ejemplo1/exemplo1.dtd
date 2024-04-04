@@ -1,0 +1,103 @@
+<!ELEMENT tema (autor, apartado+)>
+<!-- +  1 o mas-->
+<!-- * 0 o mas-->
+<!-- ? 0 o 1 -->
+<!ATTLIST tema
+ titulo CDATA #REQUIRED
+ unidade CDATA #REQUIRED>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT apartado (#PCDATA)>
+<!ATTLIST apartado
+ numero CDATA #REQUIRED>
+ 
+ <!-- tarefa 1.4 1 
+<!DOCTYPE marcadores  [
+<!ELEMENT marcadores (marcador)+>
+<!ELEMENT marcador (nombre, uri)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT uri (#PCDATA)>
+]>
+ -->
+
+<!--  tarefa 1.4 2 
+<!DOCTYPE efemerides [
+<!ELEMENT efemerides (efemeride)+>
+<!ELEMENT efemeride (fecha, hecho)>
+<!ELEMENT fecha(#PCDATA)>
+<!ELEMENT hecho (#PCDATA)>
+]>
+--> 
+
+<!--  tarefa 1.4 3 
+<!DOCTYPE aeropuertos [
+<!ELEMENT aeropuertos (aeropuerto+)>
+<!ELEMENT aeropuerto (nombre, cerrado?)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT cerrado EMPTY>
+]>
+-->
+
+<!--  tarefa 1.4 4
+<!DOCTYPE vuelos [
+<!ELEMENT vuelos (vuelo*)>
+<!ELEMENT vuelo (origen | destino)+>
+<!ELEMENT origen (#PCDATA)>
+<!ELEMENT destino (#PCDATA)>
+]>
+-->
+
+<!-- tarefa 1.4 5
+<!DOCTYPE reyesEspañoles [
+<!ELEMENT reyesEspañoles (rey | reina)*>
+<!ELEMENT rey (nombre, padre, madre)>
+<!ELEMENT reina (nombre, paadre, madre)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT padre (#PCDATA)>
+<!ELEMENT madre (#PCDATA)>
+]>
+-->
+
+<!-- tarefa 1.4 6
+<!DOCTYPE paises [
+<!ELEMENT paises (pais+)>
+<!ELEMENT pais (nombre, (unionEuropea | otan)+)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT unionEuropea EMPTY>
+<!ELEMENT otan EMPTY>
+]>
+-->
+
+<!-- tarefa 1.4 7 
+<!DOCTYPE colores [
+<!ELEMENT colores (color*)>
+<!ELEMENT color (nombreSvg, codigo)>
+<!ELEMENT nombreSvg (#PCDATA)>
+<!ELEMENT codigo (rgb | cmyk)>
+<!ELEMENT rgb (#PCDATA)>
+<!ELEMENT cmyk (#PCDATA)>
+]>
+-->
+
+<!--  tarefa 1.4 8 
+<!DOCTYPE contabilidad [
+<!ELEMENT contabilidad (apunte+)>    
+<!ELEMENT apunte ((ingreso | gasto), fecha, cantidad , concepto)>
+<!ELEMENT ingreso EMPTY>
+<!ELEMENT gasto EMPTY>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT cantidad (#PCDATA)>
+<!ELEMENT concepto (#PCDATA)>
+]>
+-->
+
+<!-- tarefa 1.4 9 
+<!DOCTYPE mensajes [
+<!ELEMENT mensajes (mensaje+)>
+<!ELEMENT mensaje (de, para, hora, texto)>
+<!ELEMENT de (#PCDATA)>
+<!ELEMENT para (#PCDATA)>
+<!ELEMENT hora (#PCDATA)>
+<!ELEMENT texto (#PCDATA | strong)*>
+<!ELEMENT strong (#PCDATA)>
+]>
+-->

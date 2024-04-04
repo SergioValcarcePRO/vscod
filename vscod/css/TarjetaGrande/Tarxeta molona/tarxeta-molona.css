@@ -1,0 +1,65 @@
+.cards-list {
+  z-index: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 30px auto;
+  width: 25vw;
+  height: 25vw;
+  border-radius: 40px;
+  box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25),
+    -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+  cursor: pointer; /*Así parece que é un enlace. Non é moi importante */
+  transition: 0.4s;
+}
+
+.card .card_image {
+  width: inherit;
+  height: inherit;
+  
+}
+
+.card .card_image img {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+  object-fit: cover;/* Para conservar a realción de aspecto da foto. Por defecto axústaa ao container e pode quedar mal*/
+}
+
+.card .card_title {
+  text-align: center;
+  border-radius: 0px 0px 40px 40px; /* Non faría falta, pero para que se entenda*/
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-top: -80px; /*Para que se superpoña á foto. Probade a quitalo*/
+  height: 40px;
+}
+
+.card:hover {
+  transform: scale(0.9, 0.9);
+  box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
+    -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+}
+
+.title-white {
+  color: rgb(235, 224, 224);
+}
+
+.title-black {
+  color: black;
+}
+
+/*Isto é unha media query, serve para facelo algo máis responsive. Non o imos ver, pero para que vos soe*/
+@media all and (max-width: 500px) {
+  .card-list {
+    /* En pantallas pequenas en vez de flex-direction en filas, pasámolo a columnas */
+    flex-direction: column;
+  }
+}
+
+

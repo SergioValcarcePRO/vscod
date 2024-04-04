@@ -1,0 +1,53 @@
+ /* Reset básico*/
+ *{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 2em;
+}
+h1{
+    font: 3em Georgia;
+    text-align: center;
+    color: bisque;
+    background-color: rgb(172, 15, 172);
+    text-shadow: 10px 10px 20px #dddddd;
+}
+nav{
+    position:sticky; /* para que se quede pegado*/
+    top:0;
+   
+
+ }
+ nav ul{
+    list-style-type: none;
+    background-color:rgb(223, 223, 75);
+    overflow: hidden;
+    margin: 20px;
+    padding: 20px;
+ }
+
+
+ nav ul li{
+    float: left; 
+    margin: 0 2em;
+ }
+nav ul li a{
+    color:white;
+    text-decoration: none;
+
+}
+nav ul li a:hover{
+    text-shadow: 5px 5px 10px blue;
+    color:antiquewhite;
+    transition: .7s;
+}
+article{
+    margin-left: 10%;
+}
+p{
+    text-indent: 25px;
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ciclo2 nombre="DAM">
+    <familia>
+        IFC
+    </familia>
+
+    <tipo>
+        CS
+    </tipo>
+
+    <nombre_completo>Desarrollo de aplicaciones multiplataforma</nombre_completo>
+    <nombre_abreviado>DAM</nombre_abreviado>
+<modulos>
+    <modulo1>BADA</modulo1>
+    <modulo2>PROG</modulo2>
+    <modulo3>LMSX</modulo3>
+    <modulo4>SIIN</modulo4>
+    <modulo5>CODE</modulo5>
+    <modulo6>FOL</modulo6>
+</modulos>
+    
+</ciclo2>

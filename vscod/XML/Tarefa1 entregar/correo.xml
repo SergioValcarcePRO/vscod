@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<correo_electronico>
+    <correo>
+        <remitente>
+            <nombre_completo>Sergio Valcarce Otero</nombre_completo>
+            <nombre>Sergio</nombre>
+            <direccion_email>sergio114valcarce@gmail.com</direccion_email>
+        </remitente>
+        <destinatario>
+            <nombre_completo>Manuel Vazquez</nombre_completo>
+            <nombre>Manuel</nombre>
+            <direccion_email>manuel46@hotmail.es</direccion_email>
+        </destinatario>
+        <asunto>Tomar café</asunto>
+        <corpo>Hola Manuel, cuando tengas un dia libre y vengas de viaje a Galicia tenemos que
+            quedar para tomar un cafe y contarnos muchas cosas.
+        </corpo>
+    </correo>
+
+    <correo>
+        <remitente>
+            <nombre_completo>Sergio Valcarce Otero</nombre_completo>
+            <nombre>Sergio</nombre>
+            <direccion_email>sergio114valcarce@gmail.com</direccion_email>
+        </remitente>
+        <destinatario>
+            <nombre_completo>Arnau Garcia</nombre_completo>
+            <nombre>Arnau</nombre>
+            <direccion_email>ar_272@hotmail.es</direccion_email>
+        </destinatario>
+        <asunto>Salir el sábado</asunto>
+        <corpo>Hola Arnau, este fin de semana empiezan las fiestas de carnavales,vamos a quedr unos
+            amigos y yo para tomar unas cañas en el centro. ¿te apuntas con nosotros?.
+        </corpo>
+    </correo>
+
+
+    <correo>
+        <remitente>
+            <nombre_completo>Sergio Valcarce Otero</nombre_completo>
+            <nombre>Sergio</nombre>
+            <direccion_email>sergio114valcarce@gmail.com</direccion_email>
+        </remitente>
+        <destinatario>
+            <nombre_completo>Asier lopez</nombre_completo>
+            <nombre>Asier</nombre>
+            <direccion_email>asierlopex48@gmail.com</direccion_email>
+        </destinatario>
+        <asunto>Apuntes BADA</asunto>
+        <corpo>Hola Asier, mañana tendremos el examen de base de datos de Älgebra relacional en el
+            aula 205, por si no tienes los apuntes te envio el archivo adjunto en el siguiente
+            enlace: apuntes.docx
+        </corpo>
+    </correo>
+
+</correo_electronico>

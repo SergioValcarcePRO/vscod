@@ -1,0 +1,26 @@
+/*
+ Exemplo_1254_paragrafos.css
+*/
+p.first:first-letter{
+    font-size: 2.5em;
+    color:green;
+   }
+   p.first:first-line{
+    font-weight: bold;
+   }
+   /* fillos impares */
+   div p:nth-child(odd){
+    color: red;
+   }
+   /* segundo fillo */
+   div p:nth-child(2){
+    color: green;
+   }
+   /* fillos: 4,8,12,.... */
+   div p:nth-child(4n){
+    color: #3300cc;
+   }
+
+   div{
+    background-color: rgb(43, 156, 226);
+   }

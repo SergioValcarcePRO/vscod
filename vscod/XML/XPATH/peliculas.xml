@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filmografia>
+
+  <peliculas>
+    <pelicula>
+      <ano>1954</ano>
+      <titulo>Crimen perfecto</titulo>
+      <duracion>105</duracion>
+      <reparto papel="Director">AH</reparto>
+      <reparto papel="Actriz principal">GK</reparto>
+      <!-- me gusta -->
+    </pelicula>
+    <pelicula>
+      <ano>1989</ano>
+      <titulo>Crimen perfecto</titulo>
+      <duracion>107</duracion>
+      <reparto papel="Director">AD</reparto>
+      <reparto papel="Actor principal">MD</reparto>
+      <reparto papel="Actriz principal">GP</reparto>
+    </pelicula>
+    <pelicula>
+      <ano>1940</ano>
+      <titulo>Rebeca</titulo>
+      <duracion>130</duracion>
+      <reparto papel="Director">AH</reparto>
+      <reparto papel="Actor principal">LO</reparto>
+      <reparto papel="Actriz principal">JF</reparto>  
+    </pelicula>
+  </peliculas>
+  
+    <persoa codigo="AH">
+      <nome>Alfred Hitchcock</nome>
+      <nacemento>1899-08-13</nacemento>
+      <premio ano="1940">Nominado ao Óscar Mellor Director</premio>
+      <premio ano="1944">Nominado ao Óscar Mellor Director</premio>
+      <premio ano="1945">Nominado ao Óscar Mellor Director</premio>
+      <premio ano="1954">Nominado ao Óscar Mellor Director</premio>
+      <premio ano="1960">Nominado ao Óscar Mellor Director</premio>
+      <!-- director de fama mundial -->
+    </persoa>
+    <persoa codigo="GK">
+      <nome>Grace Kelly</nome>
+      <nacemento>1929-11-12</nacemento>
+      <premio ano="1954">Nominada ao Óscar Mellor Actriz de Reparto</premio>
+	  <premio ano="1955">Óscar Mellor Actriz</premio>
+    </persoa>
+    <persoa codigo="GP">
+      <nome>Gwyneth Paltrow</nome>
+      <nacemento>1972-09-27</nacemento>
+      <premio ano="1999">Óscar Mellor Actriz</premio>
+    </persoa>
+    <persoa codigo="MD">
+      <nome>Michael Douglas</nome>
+      <nacemento>1944-09-25</nacemento>
+      <premio ano="1976">Óscar Mellor Actor</premio>
+      <premio ano="1987">Globo de Oro Mellor Actor</premio>
+    </persoa>
+    <persoa codigo="LO">
+      <nome>Laurence Kerr Olivier</nome>
+      <nacemento>1907-05-22</nacemento>
+      <premio ano="1946">Óscar honorífico</premio> 
+      <premio ano="1948">Nominado ao Óscar Mellor Director</premio>
+    </persoa>
+    <persoa codigo="JF">
+      <nome>Joan Fontainer</nome>
+      <nacemento>1917-10-22</nacemento>
+      <premio ano="1941">Óscar Mellor Actriz</premio> 
+    </persoa>
+    <persoa codigo="AD">
+      <nome>Andrew Davis</nome>
+      <nacemento>1946-11-21</nacemento>
+      <!-- sen premios a destacar -->
+    </persoa>
+ 
+</filmografia>

@@ -1,0 +1,34 @@
+/* este e un exmeplo de como poñer estilos para un enlace-botón*/
+/*RESET*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  padding: 10vh;
+}
+
+a.enlace {
+  background-color:violet;
+  color: aliceblue;
+  padding: 1em;
+  border-radius: 37% 63% 74% 26% / 23% 100% 0% 77% ;
+  box-shadow: 10px 5px 10px black;
+  text-decoration: none;
+  text-align: center;
+  font-size: 5vw;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  
+}
+
+a.enlace:hover{
+    background-color: brown;
+    color:purple;
+    font-weight: bold;
+    box-shadow: 10px 10px 20px;
+    transition: 0.3s ;
+
+}
+/* para positions os mais usadon son sticky e a conbinacion  de absolute e relative*/
+

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <title>Eventos musicales en España</title>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link href="final.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="contenedor">
+      <div class="formulario">
+        <h2>Datos personales</h2>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required />
+        <br /><br />
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" id="apellidos" name="apellidos" size="50" required />
+        <p>
+          <label for="foto"> Suba una foto reciente  de  usuario/a</label>
+          <input type="file" name="foto" id="foto" />
+        </p>
+        <p>
+          <label>¿Es la primera vez que se da de alta como usuario/a? :</label>
+          <input
+            type="radio"
+            name="primeraVez"
+            value="Si"
+            checked="checked"
+            id="Si"
+          />
+          <label for="Si"> Si</label>
+          <input
+            type="radio"
+            name="primeraVez"
+            value="No"
+          />
+          <label for="No"> No</label>
+        </p>
+        <p>
+          <label for="Observacions">Ayudanos a conocer tu opinión sobre las distintas festividades que se realizan en España:</label><br />
+          <textarea
+            id="Observacions"
+            name="Observacions"
+            cols="50"
+            rows="5"
+            maxlength="250"
+          ></textarea>
+        </p>
+      </div>
+      <div class="formulario">
+        <h2>Datos acceso</h2>
+        <p>
+          <label for="Nome">Nombre de usuario/a:</label>
+          <input
+            type="text"
+            id="Nome"
+            name="Nome"
+            required
+            size="10"
+            maxlength="10"
+          />
+        </p>
+        <p>
+          <label for="contrasinal">Contraseña</label>
+          <input
+            type="password"
+            name="contrasinal"
+            value=""
+            id="contrasinal"
+            size="10"
+            maxlength="10"
+          />
+        </p>
+        <p>
+          <label for="Repite contrasinal">Verifique su contraseña</label>
+          <input
+            type="password"
+            name="Repite contrasinal"
+            value=""
+            id="contrasinal"
+            size="10"
+            maxlength="10"
+          />
+        </p>
+        <p>
+          <input
+            type="reset"
+            name="Borrar datos del formulario"
+            value="Borrar datos del formulario"
+          />
+          <input type="submit" name="Crear conta" value="Crear conta" />
+        </p>
+      </div>
+      <img class="imagenreg2" src="./imagenes/registrate2.jpeg">
+    </div>
+    <footer><a href="index.html">INICIO</a></footer>
+  </body>
+</html>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inmobiliaria nome="Inmobiliaria XaTeñoCasa!!">
+  <vivenda dataAlta="10-11-2015" tipo="piso"  ID="V043">
+    <propietario ID="P23"/>
+    <propietario ID="P29"/>
+    <prezo rexime="aluguer">400</prezo>
+    <situacion>
+      <enderezo>Rúa Eduardo Pondal nº2, 4ºB</enderezo>
+      <poboacion>Pontevedra</poboacion>
+      <codigoPostal>36004</codigoPostal>
+    </situacion>
+    <caracteristicas anoConstrucción="1982">
+      <oco tipo="cocina" m2="11">Amueblada con electrodomésticos</oco>
+      <oco tipo="salon" m2="22"/>
+      <oco tipo="baño" m2="7">Completo</oco>
+      <oco tipo="dormitorio" m2="14"/>
+      <oco tipo="dormitorio" m2="12"/>
+      <oco tipo="dormitorio" m2="9"/>
+      <oco tipo="vestibulo" m2="7"/>
+      <oco tipo="garaxe" m2="12"/>
+      <oco tipo="trasteiro" m2="5"/>
+      <amueblado/>
+      <comentarios>
+        Aluguer só a estudantes durante o curso escolar, e pagando sinal de dous meses
+      </comentarios>
+    </caracteristicas>
+    <imaxe>http://decoracion.in/wp-content/uploads/moderno-piso-en-suecia-14.jpg</imaxe>
+  </vivenda>
+  <vivenda dataAlta="11-03-2009" tipo="ático"  ID="V047">
+    <propietario ID="P29"/>
+    <prezo rexime="venda">295000</prezo>
+    <situacion>
+      <enderezo>Rúa Joaquín Costa nº1, 3ºA</enderezo>
+      <poboacion>Sanxenxo</poboacion>
+      <codigoPostal>36960</codigoPostal>
+    </situacion>
+    <caracteristicas  anoConstrucción="2009">
+      <oco tipo="cocina" m2="14">Amueblada sin electrodomésticos</oco>
+      <oco tipo="salon" m2="28"/>
+      <oco tipo="baño" m2="5"/>
+      <oco tipo="baño" m2="3">Completo, en habitación de matrimonio</oco>
+      <oco tipo="dormitorio" m2="17">Con vestidor y baño</oco>
+      <oco tipo="dormitorio" m2="11"/>
+      <oco tipo="dormitorio" m2="14"/>
+      <oco tipo="vestibulo" m2="4"/>
+      <oco tipo="terraza" m2="15">Con toma de agua y toldo mecánico</oco>
+      <oco tipo="garaxe" m2="12"/>
+      <oco tipo="garaxe" m2="15">Pechado con porta automática</oco>
+      <oco tipo="trasteiro" m2="7"/>
+      <oco tipo="trasteiro" m2="6"/>
+      <outras>Ventanas oscilobatientes</outras>
+      <outras>Carpintería de roble</outras>
+      <amueblado/>
+      <ascensor/>
+      <comentarios>
+        Ben situado, preto de colexios, supermercados e zoa comercial.
+      </comentarios>
+    </caracteristicas>
+    <imaxe>http://interiores.com/wp-content/uploads/2007/12/unir-la-cocina-con-el-comedor.jpg</imaxe>
+    <imaxe>http://media-cdn.tripadvisor.com/media/photo-s/01/23/89/3e/no-esta-nada-mal-piso.jpg</imaxe>
+    <imaxe>http://media-cdn.tripadvisor.com/media/photo-s/01/11/ed/74/ibis-habitacion.jpg</imaxe>
+    <imaxe>http://www.hotel-infante.com/es/img/estandar-cama-doble-habitacion-doble-hotel-infante.jpg</imaxe>
+  </vivenda>
+  <vivenda dataAlta="09-03-2015" tipo="piso"  ID="V054">
+    <propietario ID="P23"/>
+    <prezo rexime="aluguer">450</prezo>
+    <prezo rexime="venda">150000</prezo>
+    <situacion>
+      <enderezo>Calle Curtidoira nº6, 4ºC</enderezo>
+      <poboacion>As Pontes</poboacion>
+      <codigoPostal>15320</codigoPostal>
+    </situacion>
+    <caracteristicas anoConstrucción="2015">
+      <oco tipo="cocina" m2="7">Amueblada sin electrodomésticos</oco>
+      <oco tipo="salon" m2="16"/>
+      <oco tipo="baño" m2="8"/>
+      <oco tipo="dormitorio" m2="15"/>
+      <oco tipo="garaxe" m2="11"/>
+      <ascensor/>
+    </caracteristicas>
+    <imaxe>http://inmobiliaria.files.wordpress.com/2006/10/fotos-piso-002.jpg</imaxe>
+  </vivenda>
+  <vivenda dataAlta="10-07-1997" tipo="piso"  ID="V059">
+    <propietario ID="P49"/>
+    <situacion>
+      <enderezo>Calle Profesor Filgueira nº7, 6ºB</enderezo>
+      <poboacion>Marín</poboacion>
+      <codigoPostal>36900</codigoPostal>
+    </situacion>
+    <caracteristicas  anoConstrucción="1985">
+      <oco tipo="cocina" m2="10">Amueblada sin electrodomésticos</oco>
+      <oco tipo="salon" m2="20"/>
+      <oco tipo="baño" m2="5"/>
+      <oco tipo="dormitorio" m2="15"/>
+      <oco tipo="dormitorio" m2="15"/>
+      <amueblado/>
+    </caracteristicas>
+  </vivenda>
+</inmobiliaria>

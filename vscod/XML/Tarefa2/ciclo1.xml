@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ciclo1 familia="IFC" tipo="CS">
+    <nombre_completo>Desarrollo de aplicaciones multiplataforma</nombre_completo>
+    
+    <modulo1>BADA</modulo1>
+    <modulo2>PROG</modulo2>
+    <modulo3>LMSX</modulo3>
+    <modulo4>SIIN</modulo4>
+    <modulo5>CODE</modulo5>
+    <modulo6>FOL</modulo6>
+</ciclo1>

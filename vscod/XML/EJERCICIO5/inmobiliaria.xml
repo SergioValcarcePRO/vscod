@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<viviendas inmobiliaria="A nosa Inmobiliaria">
+    <vivenda codigo="100">
+        <situacions>
+            <situacion estado="alquilada"></situacion>
+            
+        </situacions>
+        <superficie_vivenda>
+            
+        </superficie_vivenda>
+
+        <antiguedade_vivienda>
+            
+        </antiguedade_vivienda>
+        <distribucions>
+            <distribucion tipo="A"></distribucion>
+        </distribucions>
+    
+        <caracteristicas_especiais>
+            <caracteristica tipo="1">Garaxe</caracteristica>
+        </caracteristicas_especiais>
+    </vivenda>
+
+    <vivenda codigo="200">
+        <situacions>
+            <situacion estado="alquilada"></situacion>
+            
+        </situacions>
+        <superficie_vivenda>
+            
+        </superficie_vivenda>
+        <antiguedade_vivienda>
+            
+    
+        </antiguedade_vivienda>
+        <distribucions>
+            <distribucion tipo="B"></distribucion>
+        </distribucions>
+    
+        <caracteristicas_especiais>   
+            <caracteristica tipo="2">Trasteiro</caracteristica>
+        </caracteristicas_especiais>
+    </vivenda>
+
+    <vivenda codigo="300">
+        <situacions>
+            <situacion estado="vendida"></situacion>
+            
+        </situacions>
+        <superficie_vivenda>
+            
+        </superficie_vivenda>
+        <antiguedade_vivienda> chamarlle ano_contruccion asi non o temos que cambiar xa que o ano nn cambia</antiguedade_vivienda>
+        <distribucions>
+            <distribucion tipo="C">Americana</distribucion>
+        </distribucions>
+    
+        <caracteristicas_especiais>
+            <caracteristica tipo="3">Amoblado</caracteristica>
+        </caracteristicas_especiais>
+    </vivenda>
+<observacions> meter observacions sobre a vivenda </observacions>
+</viviendas>

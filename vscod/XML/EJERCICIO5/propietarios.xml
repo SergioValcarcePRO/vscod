@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+    Datos dos propietarios das vivendas que xestiona a inmobiliaria:
+    nome e apelidos, teléfono, dirección, poboación, código postal, ...)
+-->
+
+<propietarios inmobiliaria="A Nosa Inmobiliaria">
+    <propietario codigo="10">
+        <nome>Alejandro Alex Alex</nome>
+        <enderezo>
+            <rua>Armando Durán 246 1º</rua>
+            <codigo_postal>27002</codigo_postal>
+            <poboacion>Lugo</poboacion>
+            <provincia>Lugo</provincia>
+         </enderezo>
+        <telefonos>
+            <telefono tipo="Fixo">982 40 40 40</telefono>
+            <telefono tipo="Móbil">666 333 777</telefono>
+        </telefonos>
+    </propietario>
+    <propietario codigo="20">
+        <nome>Susana Varela Varela</nome>
+        <enderezo>
+            <rua>Angelo Colocci 40 6ºB portal A</rua>
+            <codigo_postal>27003</codigo_postal>
+            <poboacion>Lugo</poboacion>
+            <provincia>Lugo</provincia>
+         </enderezo>
+        <telefonos>
+            <telefono>982 33 44 55</telefono>
+        </telefonos>
+    </propietario>
+    <propietario codigo="40">
+        <nome>Clara Serén Pias</nome>
+        <enderezo>
+            <rua>Progreso 136 1º</rua>
+            <codigo_postal>27002</codigo_postal>
+            <poboacion>Lugo</poboacion>
+            <provincia>Lugo</provincia>
+         </enderezo>
+        <telefonos>
+            <telefono>621 50 50 50</telefono>
+        </telefonos>
+        <email>
+            clara@gmail.com
+        </email>
+    </propietario>
+</propietarios>

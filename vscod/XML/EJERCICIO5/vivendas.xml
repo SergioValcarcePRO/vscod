@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- documento vivendas da inmobiliaria -->
+
+<vivendas inmobiliaria="A Nosa Inmobiliaria">
+  <vivenda codigo="300">
+    <enderezo>
+      <rua>Reina 10 3º</rua>
+      <codigo_postal>27002</codigo_postal>
+      <poboacion>Lugo</poboacion>
+      <provincia>Lugo</provincia>
+    </enderezo>
+    <propietarios><!--códigos de propietarios -->
+      <propietario codigo="10" />
+    </propietarios>
+    <condicions>
+      <aluguer mobles="si">
+        <prezo>600</prezo>
+      </aluguer>
+      <venda mobles="si">
+        <prezo>150000</prezo>
+      </venda>
+    </condicions>
+    <caracteristicas>
+      <superficie>105</superficie>
+      <ano_construcion>2008</ano_construcion>
+      <distribucion>
+        <oco tipo="cociña">15</oco>
+        <oco tipo="baño">5</oco>
+        <oco tipo="baño">5</oco>
+        <oco tipo="sala">39</oco>
+        <oco tipo="dormitorio">18</oco>
+        <oco tipo="dormitorio">18</oco>
+      </distribucion>
+      <terraza>5</terraza><!-- metros cadrados de superficie total -->
+      <garaxe>25</garaxe><!-- metros cadrados de superficie total -->
+      <trasteiro>40</trasteiro><!-- metros cadrados de superficie total -->
+      <ascensor>1</ascensor>
+      <minusvalidos>ningún obstáculo ata o ascensor, dende o ascensor ó garaxe e a vivenda.
+            Portas con ancho suficiente para unha silla de rodas. 
+           Un baño acondicionado para minusválido.</minusvalidos><!-- facilidades para minusválidos -->
+      <calefaccion>comunitaria de gas natural con contador individual</calefaccion>
+    </caracteristicas>
+    <observacions>Prezos e condicións de aluguer e compra negociables</observacions>
+  </vivenda>
+  <vivenda codigo="500">
+    <enderezo>
+      <rua>Alfonso X o sabio 66 5ºC</rua>
+      <codigo_postal>27003</codigo_postal>
+      <poboacion>Lugo</poboacion>
+      <provincia>Lugo</provincia>
+    </enderezo>
+    <propietarios>
+      <propietario codigo="10" />
+      <propietario codigo="20" />
+    </propietarios>
+    <condicions>
+      <venda mobles="non">
+        <prezo>200000</prezo>
+      </venda>
+    </condicions>
+    <caracteristicas>
+      <superficie>95</superficie>
+      <ano_construcion>2010</ano_construcion>
+      <distribucion>
+        <oco tipo="cociña">10</oco>
+        <oco tipo="baño">4</oco>
+        <oco tipo="baño">3</oco>
+        <oco tipo="sala">25</oco>
+        <oco tipo="dormitorio">19</oco>
+        <oco tipo="dormitorio">16</oco>
+        <oco tipo="dormitorio">18</oco>
+      </distribucion>
+      <terraza>0</terraza>
+      <garaxe>15</garaxe>
+      <trasteiro>10</trasteiro>            
+      <atico>0</atico>
+      <ascensor>2</ascensor>
+      <minusvalidos>non</minusvalidos>
+      <calefaccion>comunitaria de gas-oil </calefaccion>
+    </caracteristicas>
+  </vivenda>
+  <vivenda codigo="1000">
+    <enderezo>
+      <rua>Laverca 14 3º</rua>
+      <codigo_postal>2703</codigo_postal>
+      <poboacion>Lugo</poboacion>
+      <provincia>Lugo</provincia>
+    </enderezo>
+    <propietarios>
+      <propietario codigo="40" />
+    </propietarios>
+    <condicions>
+      <aluguer mobles="non">
+        <prezo>300</prezo>
+      </aluguer>
+    </condicions>
+    <caracteristicas>
+      <superficie>85</superficie>
+      <ano_construcion>1980</ano_construcion>
+      <distribucion>
+        <oco tipo="cociña">10</oco>
+        <oco tipo="baño">4</oco>
+        <oco tipo="baño">3</oco>
+        <oco tipo="sala">20</oco>
+        <oco tipo="dormitorio">16</oco>
+        <oco tipo="dormitorio">15</oco>
+        <oco tipo="dormitorio">17</oco>
+      </distribucion>
+      <terraza>0</terraza>
+      <garaxe>0</garaxe>
+      <trasteiro>0</trasteiro>            
+      <atico>0</atico>
+      <ascensor>0</ascensor>
+      <minusvalidos>Non está adaptado</minusvalidos>
+    </caracteristicas>
+    <observacions>Non ten gastos de comunidade</observacions>
+    <calefaccion>individual de gas ciudad </calefaccion>
+  </vivenda>
+</vivendas>

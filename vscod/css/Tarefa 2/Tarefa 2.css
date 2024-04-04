@@ -1,0 +1,62 @@
+body{
+    color: blue; /*color de letra*/
+  font-size: 10pt;/* tamaño de letra*/
+  font-family: Arial, sans-serif; /* tipo de letra */
+  line-height: 20pt; /* espazamento entre liñas. O  dobre do tamaño de letra */
+  
+}
+/*parágrafos*/
+p {
+    text-align: justify; /* aliñamento do texto*/
+    letter-spacing: 4px; /* espazo entre letras*/
+    margin-left: 20px; /* sangrdo do texto*/
+  }
+  /*Etiqueta h1*/
+  h1 {
+    color: red; /*color de letra*/
+    font-size: 150%; /*  Tamaño de letra: 50% maior que a dos parágrafos */
+    font-family: Verdana, sans-serif; /* tipo de letra*/
+    font-weight: 800; /* grosor dos carácteres*/
+  }
+  /*Etiqueta h2*/
+  h2 {
+    color: green; /* color de letra*/
+    font-size: 125%; /* tamaño de letra: 25% maior ca dos parágrafos */
+    font-family: Garamond, serif; /* tipo de letra*/
+    font-style: italic; /* estilo de fonte: italica*/
+  }
+  /* Clase negrita*/
+  .negrita {
+    font-weight: bold; /* letra grosa*/
+  }
+  /* Clase italica*/
+  .italica {
+    text-decoration: underline; /* decoración do texto: subliñado*/
+    font-style: italic;  /* estilo de fonte: italica*/
+  }
+  
+  a:link {
+    color: maroon; /* links non visitados, cor maroon*/
+  }
+
+  a:visited {
+    color: fuchsia; /* links visitados, cor fuchsia*/
+  }
+
+  a:hover {
+    color: lime; /* ao colocar enriba o rato, cor lime*/
+  }
+
+  a:active {
+    color: yellow; /*no momento de facer clic, cor amarela*/
+  }
+
+  .eliminado {
+    text-decoration: line-through; /*decoracion do texto*/
+    color: purple; /*color*/
+  }
+ 
+  
+  
+  
+  

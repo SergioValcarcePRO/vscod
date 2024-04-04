@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ciclo familia="IFC" tipo="CS">
+    <nombre_completo>Desarrollo de aplicaciones multiplataforma</nombre_completo>
+    <nome_abrevido>DAM</nome_abrevido>
+    
+    <modulos>
+        <modulo>BADA</modulo>
+        <modulo>PROG</modulo>
+        <modulo>LMSX</modulo>
+        <modulo>SIIN</modulo>
+        <modulo>CODE</modulo>
+        <modulo>FOL</modulo>
+    </modulos>
+</ciclo>

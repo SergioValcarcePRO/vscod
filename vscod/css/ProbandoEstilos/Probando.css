@@ -1,0 +1,31 @@
+div{
+    background-image: url("./Estuco.jpg");
+    background-repeat: no-repeat ;
+    height: 50vh;
+    width: 50vw;
+    border-style: solid dashed dotted;
+    border-width: 5px 15px 35px;
+    border-color: red blue green magenta;
+    margin-bottom: 100px;
+
+
+}
+
+body{
+    background-image:url("./textura.avif");
+    background-repeat: no-repeat;
+    height: 100;
+    width: 100vw;   
+
+
+}
+
+
+
+p{ 
+    border : 5px red solid;
+    border-radius: 20px;
+    margin:auto;
+    padding: 15px;
+    width: 50%;
+}

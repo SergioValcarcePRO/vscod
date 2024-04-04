@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT torneo (participantes)>
+<!ELEMENT participantes (participante+)>
+<!ATTLIST torneo edicion NMTOKEN #REQUIRED>
+<!ATTLIST torneo anteriorGanador NMTOKENS #REQUIRED>
+<!ELEMENT participante (nombre, edad,pais,cabezaDeSerie?)>
+<!ATTLIST participante idP ID #REQUIRED>
+<!ATTLIST participante pareja IDREF #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT edad (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT cabezaDeSerie EMPTY>

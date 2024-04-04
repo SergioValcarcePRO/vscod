@@ -1,0 +1,29 @@
+body {
+  border: 2px, solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 99vh;
+  width: 99vw;
+  margin: 0;
+  background-color: wheat;
+}
+
+.bandera-japon {
+  width: 60%;
+  height: 40%;
+  background-color: #fff; /* Fondo blanco */
+  position: relative;
+  border-color: 10px, black, solid;
+}
+
+.circulo-rojo {
+  width: 120px;
+  height: 120px;
+  background-color: #dc143c; /* Rojo oscuro */
+  border-radius: 5em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

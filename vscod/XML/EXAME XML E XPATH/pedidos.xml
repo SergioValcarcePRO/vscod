@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>    <!-- Ejercicio 1, documento xml-->
+<Pedidos>
+    <pedido numero="566922">
+        <carrito>
+            <articulo codigo="51">
+                <piezas>1</piezas>
+                <nombre>Sushi Deli Roll Maxi</nombre>
+                <descricion> Maki</descricion>
+                <precio-unidad>7,00</precio-unidad>
+                <total>7,00</total>
+            </articulo>
+
+            <articulo codigo="53">
+                <piezas>1</piezas>
+                <nombre>Tamago Roll Maxi</nombre>
+                <descricion> Maki</descricion>
+                <precio-unidad>6,50</precio-unidad>
+                <total>6,50</total>
+            </articulo>
+
+            <articulo codigo="55">
+                <piezas>1</piezas>
+                <nombre>Midnight Roll Maxi</nombre>
+                <descricion> Maki</descricion>
+                <precio-unidad>6,50</precio-unidad>
+                <total>6,50</total>
+            </articulo>
+
+            <precio-entrega>0,00</precio-entrega>
+        </carrito>
+        <importe-total>20,00</importe-total>
+        <comentarios>
+            El pedido va a ser entregado a LO ANTES POSIBLE el 12/5/2011
+        </comentarios>
+    </pedido>
+
+
+</Pedidos>
+
+
+
+<!-- Ejercicios xapth -->
+<!-- 1.  //envase/@tipo -->
+<!-- 2.  //envase[liquido/@tipo="corrosivo"]/@tipo -->
+<!-- 3                                                      -->
+<!-- 4                                                      -->
+<!-- 5.  //liquido[@tipo="corrosivo"]/text() -->
+<!-- 6.  count(contenedor/envase[liquido/@tipo="alimento"]) -->
