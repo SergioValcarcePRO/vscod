@@ -1,0 +1,152 @@
+/* Reset del margin y padding de los navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos generales */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    width: 90%;
+    margin: 0 auto;
+    text-align: justify;
+    background-color: navajowhite;
+  }
+  
+  /* Estilos para el header */
+  header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  .segunda {
+    background-color: black;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  /* Estilos para el menú */
+  .menu {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f1f1f1;
+  }
+  
+  .menu li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .menu li a:hover {
+    color: #111;
+  }
+  
+  /* Estilos para el main */
+  main {
+    padding: 2rem;
+    width: 60%;
+    float: left;
+  }
+  
+  /* Estilos para el aside  */
+  aside {
+    padding: 2rem;
+    float: left;
+    width: 25%;
+  }
+  .aside {
+    width: 600x;
+    height: 400px;
+  }
+  footer {
+    text-align: center;
+    background-color: cadetblue;
+    padding: 10px;
+  }
+  footer a {
+    text-decoration: none;
+    text-shadow: black;
+    transition: 0.7s;
+    color: white;
+  }
+  .Musica {
+    display: inline-block;
+    vertical-align: top;
+    margin: 1rem;
+  }
+  /* Estilos para el calendario de eventos*/
+  /* Estilos para table y th */
+  
+  table {
+    width: 80%;
+    max-width: 600px;
+    border-collapse: collapse;
+  }
+  
+  th,
+  td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+    font-size: 1rem;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-weight: normal;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #ddd;
+  }
+  /* estilos para el calendario de eventos*/
+  
+  .Calendario h1 {
+    margin: 0 25vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+  }
+  .Calendario img.primeraimg {
+    width: 40vh;
+    height: 80vh;
+    float: left;
+  }
+  
+  .Calendario img.segundaimg {
+    width: 40vh;
+    height: 80vh;
+    float: right;
+  }
+  
+  .Calendario table {
+    margin: 0 25vw;
+  }
+  /* estilos para el formulario */
+  
+  .ultimo {
+    width: 70%;
+    border: 5px 5px 5px black;
+    
+  }
+  .imagenreg {
+    width: 50%;
+    height: 0 auto;
+    padding: 20px;
+    float: right;
+  }
+  .imagen2reg{
+    display: flex;
+  
+  
+  }
+  
