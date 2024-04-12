@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <title>Musical events in Spain</title>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link href="final.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="contenedor">
+      <div class="formulario">
+        <h2>Personal information</h2>
+        <label for="nombre">Name:</label>
+        <input type="text" id="nombre" name="nombre" required />
+        <br /><br />
+        <label for="apellidos">Surname:</label>
+        <input type="text" id="apellidos" name="apellidos" size="50" required />
+        <p>
+          <label for="foto">Upload a recent user photo</label>
+          <input type="file" name="foto" id="foto" />
+        </p>
+        <p>
+          <label>Is this the first time you have registered as a user?:</label>
+          <input
+            type="radio"
+            name="primeraVez"
+            value="Si"
+            checked="checked"
+            id="Si"
+          />
+          <label for="Si">Yes</label>
+          <input
+            type="radio"
+            name="primeraVez"
+            value="No"
+          />
+          <label for="No"> No</label>
+        </p>
+        <p>
+          <label for="Observacions">Help us know your opinion about the different festivities that take place in Spain:</label><br />
+          <textarea
+            id="Observacions"
+            name="Observacions"
+            cols="50"
+            rows="5"
+            maxlength="250"
+          ></textarea>
+        </p>
+      </div>
+      <div class="formulario">
+        <h2>Data access</h2>
+        <p>
+          <label for="Nome">Username</label>
+          <input
+            type="text"
+            id="Nome"
+            name="Nome"
+            required
+            size="10"
+            maxlength="10"
+          />
+        </p>
+        <p>
+          <label for="contrasinal">Password</label>
+          <input
+            type="password"
+            name="contrasinal"
+            value=""
+            id="contrasinal"
+            size="10"
+            maxlength="10"
+          />
+        </p>
+        <p>
+          <label for="Repite contrasinal">Check your password</label>
+          <input
+            type="password"
+            name="Repite contrasinal"
+            value=""
+            id="contrasinal"
+            size="10"
+            maxlength="10"
+          />
+        </p>
+        <p>
+          <input
+            type="reset"
+            name="Borrar datos del formulario"
+            value="Borrar datos del formulario"
+          />
+          <input type="submit" name="Crear conta" value="Crear conta" />
+        </p>
+      </div>
+      <img class="imagenreg2" src="./imagenes/registrate2.jpeg">
+    </div>
+    <footer><a href="index.html">STATRT</a></footer>
+  </body>
+</html>

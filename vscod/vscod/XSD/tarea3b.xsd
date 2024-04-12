@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="modulo">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="duracion"></xs:element>
+                <xs:element name="nome" type="tipoNomeLongo"></xs:element>  
+                <xs:element ref="ciclo" maxOccurs="unbounded"></xs:element>
+                <xs:element ref="contidos"></xs:element>
+            </xs:sequence>
+            <xs:attribute name="codigo" type="tipoCodigo"></xs:attribute>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="duracion">
+        <xs:complexType>
+            <xs:attribute name="horas" type="xs:unsignedByte" use="required"></xs:attribute>
+            <xs:attribute name="sesions" type="xs:unsignedByte"></xs:attribute>
+            <xs:attribute name="sesionsSemanais" type="tipoMenor21" use="required"></xs:attribute>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:simpleType name="tipoNomeLongo">
+        <xs:restriction base="xs:string">
+            <xs:maxLength value="150"></xs:maxLength>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:element name="ciclo">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="tipoNomeLongo">
+                    <xs:attribute name="codigo" type="tipoCodigoCiclo" use="required"></xs:attribute>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:simpleType name="tipoCodigoCiclo">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="C[SM][A-Z]{3}[0-9]{2}"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="tipoMenor21">
+        <xs:restriction base="xs:unsignedByte">
+            <xs:maxInclusive value="21"></xs:maxInclusive>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:element name="contidos">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="UD" maxOccurs="unbounded"></xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:element name="UD">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="titulo" type="tipoNomeLongo"></xs:element>
+                <xs:element name="descrición" type="xs:string" minOccurs="0"></xs:element>               
+            </xs:sequence>
+            <xs:attribute name="num" type="tipoMenor21" use="required"></xs:attribute>
+            <xs:attribute name="sesións" type="xs:unsignedByte" use="required"></xs:attribute>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:simpleType name="tipoCodigo">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="MP\d{4}"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+    
+</xs:schema>

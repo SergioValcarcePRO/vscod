@@ -2,6 +2,17 @@
 
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
     <xs:element name="Ciclo">
-        
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Nome" type="xs:string"></xs:element>
+                <xs:element name="Modulo" type="xs:string" maxOccurs="unbounded"></xs:element>
+            </xs:sequence>
+            <xs:attribute name="familia" type="xs:string"></xs:attribute>
+            <xs:attribute name="tipo" type="xs:string"></xs:attribute>
+
+
+        </xs:complexType>
     </xs:element>
 </xs:schema>
+<!-- minOccurs y maxOccurs para saber el minimo de veces que aparezca un elemento. Por defecto el
+valor es uno.-->
