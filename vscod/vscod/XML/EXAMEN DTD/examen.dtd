@@ -1,0 +1,12 @@
+
+<!ELEMENT impresoras (impresora+)>
+<!ELEMENT impresora (marca ,modelo ,peso ,tamano+ ,cartucho ,enred*)>
+<!ATTLIST impresora numSerie ID #REQUIRED>
+<!ATTLIST impresora tipo (matricial|laser|tinta) #REQUIRED>
+<!ATTLIST impresora compra NMTOKEN #IMPLIED>
+<!ELEMENT marca (#PCDATA)>
+<!ELEMENT modelo (#PCDATA)>
+<!ELEMENT peso (#PCDATA)>
+<!ELEMENT tamano (#PCDATA)>
+<!ELEMENT cartucho (#PCDATA)>
+<!ELEMENT enred EMPTY>
