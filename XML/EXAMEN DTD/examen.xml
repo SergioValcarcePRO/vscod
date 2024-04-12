@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE impresoras SYSTEM "examen.dtd">
+<impresoras>
+    <impresora numSerie="i245" tipo="laser" compra="2024">
+        <marca>Epson</marca>
+        <modelo>EPL300</modelo>
+        <peso>4.52</peso>
+        <tamano>A4</tamano>
+        <cartucho>C-123BV</cartucho>
+        <enred />
+    </impresora>
+</impresoras>
