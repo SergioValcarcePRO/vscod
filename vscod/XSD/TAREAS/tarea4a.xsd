@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  
+ <xs:element name="instituto">
+        <xs:complexType>
+            <xs:choice maxOccurs="unbounded">
+                <xs:element ref="alumno"></xs:element>
+                <xs:element ref="profesor"></xs:element>
+            </xs:choice>
+        </xs:complexType>       
+    </xs:element>
+
+    <xs:element name="alumno">
+        <xs:complexType>
+            <xs:attribute name="numExpedente" type="tipoNumExpedente" use="required"></xs:attribute>
+            <xs:attribute name="nome" type="tipoNome" use="required"></xs:attribute>
+            <xs:attribute name="apelido1" type="tipoNome" use="required"></xs:attribute>
+            <xs:attribute name="apelido2" type="tipoNome" use="required"></xs:attribute>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="profesor">
+        <xs:complexType>
+            <xs:attribute name="NRP" type="tipoNRP" use="required"></xs:attribute>
+            <xs:attribute name="nome" type="tipoNome" use="required"></xs:attribute>
+            <xs:attribute name="apelido1" type="tipoNome" use="required"></xs:attribute>
+            <xs:attribute name="apelido2" type="tipoNome" use="required"></xs:attribute>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:simpleType name="tipoNumExpedente">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[0-9]{3,4}"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="tipoNRP">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[0-9]{3,4}[A-E]\d{3}"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="tipoNome">
+        <xs:restriction base="xs:string">
+            <xs:maxLength value="50"></xs:maxLength>
+            <xs:pattern value="[A-ZÁÉÍÓÚÜÑ]([\sA-Za-záéíóúñ])+"></xs:pattern>
+            <xs:whiteSpace value="collapse"></xs:whiteSpace>
+        </xs:restriction>
+    </xs:simpleType>
+
+
+    
+</xs:schema>
