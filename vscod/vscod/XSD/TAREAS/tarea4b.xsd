@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   
+    <xs:element name="musica">
+        <xs:complexType>
+            <xs:choice maxOccurs="unbounded" minOccurs="0">
+                <xs:element ref="cd"></xs:element>
+                <xs:element ref="musico"></xs:element>
+            </xs:choice>
+        </xs:complexType>
+
+        <xs:key name="claveMusico">
+            <xs:selector xpath="musico"></xs:selector>
+            <xs:field xpath="@codigo"></xs:field>
+        </xs:key>
+       
+        <xs:keyref name="fkMusico" refer="claveMusico">
+            <xs:selector xpath="cd"></xs:selector>
+            <xs:field xpath="@interprete"></xs:field>
+        </xs:keyref>
+     </xs:element>
+
+     <xs:element name="cd">
+        <xs:complexType>
+            <xs:attribute name="ano" type="tipoAno"></xs:attribute>
+            <xs:attribute name="titulo" type="xs:NMTOKENS" use="required"></xs:attribute>
+            <xs:attribute name="interprete" type="xs:string" use="required"></xs:attribute>
+        </xs:complexType>
+     </xs:element>
+
+     <xs:element name="musico">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="nomeArtistico" type="xs:string"></xs:element>
+                <xs:element name="tipo" type="tipoTipoMusico" minOccurs="0"></xs:element>
+                <xs:element name="instrumento" type="xs:string" minOccurs="0" maxOccurs="unbounded"></xs:element>               
+            </xs:sequence>
+            <xs:attribute name="codigo" type="tipoCodigo" use="required"></xs:attribute>
+        </xs:complexType>
+     </xs:element>
+
+     <xs:simpleType name="tipoAno">
+        <xs:restriction base="xs:unsignedShort">    
+            <xs:minInclusive value="1901"></xs:minInclusive>     
+            <xs:maxInclusive value="2100"></xs:maxInclusive>  
+        </xs:restriction>
+     </xs:simpleType>
+
+     <xs:simpleType name="tipoCodigo">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[A-Z]{2}[A-Z0-9][0-9]{2,3}"></xs:pattern>
+        </xs:restriction>
+     </xs:simpleType>
+
+     <xs:simpleType name="tipoTipoMusico">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="cantautor"></xs:enumeration>
+            <xs:enumeration value="duo"></xs:enumeration>
+            <xs:enumeration value="solista"></xs:enumeration>
+            <xs:enumeration value="grupo"></xs:enumeration>
+            <xs:enumeration value="banda"></xs:enumeration>
+        </xs:restriction>
+     </xs:simpleType>
+</xs:schema>
