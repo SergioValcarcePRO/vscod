@@ -18,7 +18,7 @@
             <xs:sequence>
                 <xs:element name="rua" type="xs:string"></xs:element>
                 <xs:element name="numero" type="tipoNumero"></xs:element>
-                <xs:element name="poboacion"></xs:element>
+                <xs:element name="poboacion" type="xs:string"></xs:element>
                 <xs:element name="provincia" type="xs:string"></xs:element>
                 <xs:element name="codigoPostal" type="tipoCodigoPostal"></xs:element>
             </xs:sequence>
