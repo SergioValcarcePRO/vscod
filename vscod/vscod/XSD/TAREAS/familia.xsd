@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<!-- Elemento raiz familia-->
+    <xs:element name="familia">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:choice minOccurs="0" maxOccurs="2">
+                    <xs:element ref="padre"></xs:element>
+                    <xs:element ref="madre"></xs:element>
+                </xs:choice>
+                <xs:element ref="hijos"></xs:element>
+            </xs:sequence>
+            <xs:attribute name="codigo" type="tiopCodigoFamilia" use="required"></xs:attribute>
+        </xs:complexType>
+    </xs:element>
+
+    
+    <xs:element name="padre">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="nombre" type="tipoNombre"></xs:element>
+                <xs:element name="apellido" type="tipoApellido"></xs:element>
+                <xs:element name="apellido" type="tipoApellido"></xs:element>
+                <xs:element name="dni" minOccurs="0"></xs:element>
+            </xs:sequence>
+        </xs:complexType>      
+    </xs:element>
+
+    <xs:element name="madre">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="nombre"></xs:element>
+                <xs:element name="apellido"></xs:element>
+                <xs:element name="apellido"></xs:element>
+                <xs:element name="dni" type="tipoDni" minOccurs="0"></xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="hijos">
+        <xs:complexType>
+            <xs:choice maxOccurs="30">
+                <xs:element ref="hijo"></xs:element>
+                <xs:element ref="hija"></xs:element>
+            </xs:choice>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="hijo">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="nombre" type="tipoNombre"></xs:element>
+                <xs:element name="apellido" type="tipoApellido"></xs:element>
+                <xs:element name="apellido" type="tipoApellido"></xs:element>
+                <xs:element name="edad" type="xs:unsignedByte"></xs:element>
+            </xs:sequence>
+            <xs:attribute name="pos" type="xs:short" use="required"></xs:attribute>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="hija">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="nombre" type="tipoNombre"></xs:element>
+                <xs:element name="apellido" type="tipoApellido"></xs:element>
+                <xs:element name="apellido" type="tipoApellido"></xs:element>
+                <xs:element name="dni" type="tipoDni"></xs:element>
+            </xs:sequence>
+            <xs:attribute name="pos" type="tipoPos" use="required"></xs:attribute>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:simpleType name="tipoNombre"> 
+        <xs:restriction base="xs:string">
+            <xs:maxLength value="30"></xs:maxLength>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="tipoApellido">
+        <xs:restriction base="xs:string">
+            <xs:maxLength value="30"></xs:maxLength>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="tipoPos">
+        <xs:restriction base="xs:short">
+            <xs:minInclusive value="1"></xs:minInclusive>
+            <xs:maxInclusive value="30"></xs:maxInclusive>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="tiopCodigoFamilia">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[A-Z][0-9]{2}-[0-9]{2}"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="tipoDni">
+            <xs:restriction base="xs:string">
+                <xs:pattern value="\d{2}\.\d{3}\.\d{3}\-[A-Z]"></xs:pattern>
+            </xs:restriction>
+    </xs:simpleType>
+    
+</xs:schema>
